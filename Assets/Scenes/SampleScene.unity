@@ -2579,7 +2579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 22, z: 0}
+  m_LocalPosition: {x: 0, y: 25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4326,6 +4326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 8888005179860387221, guid: 80775aef34264a9439bfd07648c2d4c5, type: 3}
+  _prizePrefab: {fileID: 6709122670054445392, guid: 7b100496130a3994a8dae924aa7dcde9, type: 3}
   _speed: 5
 --- !u!1001 &1698136542
 PrefabInstance:

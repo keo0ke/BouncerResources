@@ -2578,14 +2578,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 25, z: 0}
+  m_LocalRotation: {x: 0.36867964, y: -0.025017168, z: -0.0012193873, w: 0.92921907}
+  m_LocalPosition: {x: 0.37, y: 13.14, z: -17.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 43.244, y: -3.73, z: -1.629}
 --- !u!1001 &965588062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4325,9 +4325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e43dde5153de264c913d94231a6f5a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 8888005179860387221, guid: 80775aef34264a9439bfd07648c2d4c5, type: 3}
+  _snowmanPrefab: {fileID: 8888005179860387221, guid: 80775aef34264a9439bfd07648c2d4c5, type: 3}
   _prizePrefab: {fileID: 6709122670054445392, guid: 7b100496130a3994a8dae924aa7dcde9, type: 3}
-  _speed: 5
+  _prizeCount: 6
+  _spawnRange: 9
 --- !u!1001 &1698136542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5433,6 +5434,58 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fac566e04ee2e2a4a912959e56fdbe63, type: 3}
+--- !u!1 &2026182004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026182006}
+  - component: {fileID: 2026182005}
+  m_Layer: 0
+  m_Name: CandySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2026182005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026182004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7511cbfa2eee07d43ba5da26e179e2e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _candyPrefab: {fileID: 5568511417718030358, guid: 60937d8f305fdfc49b12dd1dfcb6c6d7, type: 3}
+  _candyColors:
+  - {fileID: 2100000, guid: 0fdabc067f6e3814683fd961e3b760a5, type: 2}
+  - {fileID: 2100000, guid: 7bc216617b268b4458ce4abb293f4224, type: 2}
+  - {fileID: 2100000, guid: 0e33a5aed38c3284880fca1b67bb71ed, type: 2}
+  _spawnRange: 9
+  _minDistanceFromObjects: 1.5
+  _maxAttempts: 30
+--- !u!4 &2026182006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026182004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2037249540
 PrefabInstance:
   m_ObjectHideFlags: 0

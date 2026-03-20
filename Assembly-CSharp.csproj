@@ -54,6 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovements.cs" />
+    <Compile Include="Assets\Scripts\SnowmanController.cs" />
+    <Compile Include="Assets\Scripts\PrizeController.cs" />
+    <Compile Include="Assets\Scripts\PrizeColor.cs" />
+    <Compile Include="Assets\Scripts\CandySpawner.cs" />
+    <Compile Include="Assets\Scripts\CandyController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

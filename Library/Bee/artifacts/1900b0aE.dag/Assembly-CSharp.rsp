@@ -342,7 +342,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/CandyController.cs"
+"Assets/Scripts/CandySpawner.cs"
 "Assets/Scripts/PlayerMovements.cs"
+"Assets/Scripts/PrizeColor.cs"
+"Assets/Scripts/PrizeController.cs"
+"Assets/Scripts/SnowmanController.cs"
 -langversion:9.0
 
 /deterministic

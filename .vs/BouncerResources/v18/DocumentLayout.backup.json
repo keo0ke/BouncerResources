@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeBounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PrizeBounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\CandyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CandyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\SnowmanController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SnowmanController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PrizeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PlayerMovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeColor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PrizeColor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\CandySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CandySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandyController.cs",
+              "DocumentMoniker": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\CandyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CandyController.cs",
+              "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\CandyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CandyController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:18:07.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CandySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\CandySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CandySpawner.cs",
+              "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\CandySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CandySpawner.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:16:43.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrizeColor.cs",
+              "DocumentMoniker": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeColor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PrizeColor.cs",
+              "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeColor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PrizeColor.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:52:02.603Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,35 +83,35 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SnowmanController.cs",
               "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\SnowmanController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SnowmanController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAowKMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAowLgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T17:45:06.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerMovements.cs",
               "DocumentMoniker": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PlayerMovements.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovements.cs",
               "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PlayerMovements.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovements.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowGYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T17:40:55.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PrizeBounce.cs",
-              "DocumentMoniker": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeBounce.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PrizeBounce.cs",
-              "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeBounce.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PrizeBounce.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PrizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PrizeController.cs",
+              "ToolTip": "C:\\Users\\Veronika\\Documents\\GitHub\\BouncerResources\\Assets\\Scripts\\PrizeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PrizeController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowJkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T17:32:32.581Z",
+              "WhenOpened": "2026-03-20T21:38:28.624Z",
               "EditorCaption": ""
             }
           ]

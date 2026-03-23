@@ -7,6 +7,7 @@ public class PlayerMovements : MonoBehaviour
     [Header("Spawn Settings")]
     [SerializeField] private GameObject _snowmanPrefab;
     [SerializeField] private GameObject _prizePrefab;
+    [SerializeField] private Material[] _prizeColors;
     [SerializeField] private int _prizeCount = 6;
     [SerializeField] private float _spawnRange = 9f;
 
@@ -29,12 +30,8 @@ public class PlayerMovements : MonoBehaviour
         _spawnedSnowman = Instantiate(_snowmanPrefab);
         _spawnedSnowman.transform.position = new Vector3(0, 0, 0);
 
-        // Добавляем SnowmanController, если его нет на префабе
         if (_spawnedSnowman.GetComponent<SnowmanController>() == null)
-        {
             _spawnedSnowman.AddComponent<SnowmanController>();
-            Debug.Log("[GameBoard] SnowmanController добавлен на снеговика");
-        }
 
         Debug.Log($"[GameBoard] Снеговик спавнен на позиции {_spawnedSnowman.transform.position}");
     }
@@ -58,11 +55,14 @@ public class PlayerMovements : MonoBehaviour
             GameObject prize = Instantiate(_prizePrefab);
             prize.transform.position = randomPosition;
 
-            // Добавляем PrizeController, если его нет на префабе
-            if (prize.GetComponent<PrizeController>() == null)
-            {
-                prize.AddComponent<PrizeController>();
-            }
+            // Убедимся, что есть PrizeController
+            PrizeController controller = prize.GetComponent<PrizeController>();
+            if (controller == null)
+                controller = prize.AddComponent<PrizeController>();
+            controller.Initialize(_prizeColors);
+
+            // Цвет будет установлен в Start контроллера, но если нужно сразу,
+            // можно вызвать публичный метод инициализации, но в Start уже всё сделано.
 
             Debug.Log($"[GameBoard] Подарок {i + 1} спавнен на позиции {randomPosition}");
         }
@@ -70,7 +70,6 @@ public class PlayerMovements : MonoBehaviour
         Debug.Log($"[GameBoard] Всего спавнено {_prizeCount} подарков");
     }
 
-    // Опционально: визуализация зоны спавна
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;

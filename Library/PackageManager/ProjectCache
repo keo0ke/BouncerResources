@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639093657764070275
-    m_Hash: 1555133662
+      ticks: 639102984191940427
+    m_Hash: 2870628626
   m_LockFileStatus:
     m_FilePath: C:/Users/Veronika/Documents/GitHub/BouncerResources/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639093657764111827
-    m_Hash: 2729746429
+      ticks: 639102984192010736
+    m_Hash: 1381367396
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,64 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Veronika/Documents/GitHub/BouncerResources/Packages
 m_EditorVersion: 2022.1.21f1 (9ac1ff5ca45b)
 m_ResolvedPackages:
+- packageId: com.boxqkrtm.ide.cursor@https://github.com/boxqkrtm/com.unity.ide.cursor.git
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.28
+  source: 5
+  resolvedPath: C:\Users\Veronika\Documents\GitHub\BouncerResources\Library\PackageCache\com.boxqkrtm.ide.cursor@fd8ff1fb70
+  assetPath: Packages/com.boxqkrtm.ide.cursor
+  name: com.boxqkrtm.ide.cursor
+  displayName: Cursor Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Cursor editor integration for supporting Cursor as code editor for
+    unity. Adds support for generating csproj files for intellisense purposes, auto
+    discovery of installations, etc.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.9
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
